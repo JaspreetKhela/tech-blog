@@ -20,10 +20,14 @@
   <ol>
     {{#each posts as |post|}}
     <li>
-      {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="btn btn-primary">Edit</a>
+      {{> post-info-dashboard post}}
+      <a href="/dashboard/edit/{{post.id}}" class="btn btn-primary">Edit Post</a>
       {{!-- <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a> --}}
+          </div>
+        </div>
+      </article>
     </li>
+    <br>
     {{/each}}
   </ol>
 </section>

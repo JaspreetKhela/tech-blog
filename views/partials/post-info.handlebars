@@ -3,10 +3,10 @@
     <h5 class="card-header bg-primary">Blog Post</h5>
     <div class="card-body bg-dark">
       <h5 class="card-title text-light">{{title}}</h5>
-      <div class="meta">
+      <div class="meta text-light">
         {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
         |
-        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        <a href="/post/{{id}}" class="text-primary">{{comments.length}} {{format_plural "comment" comments.length}}</a>
       </div>
       <p class="card-text text-light">{{post_url}}</p>
     </div>
