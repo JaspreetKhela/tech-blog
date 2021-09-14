@@ -1,3 +1,4 @@
+{{!-- Container for editing a post --}}
 <article>
   <a href="/dashboard"> &larr; Back to dashboard</a>
   <br>
@@ -12,7 +13,7 @@
     </div>
     <div class="form-group">
       <label for="edit-post-content">Post Content:</label>
-      <textarea name="post-url" type="text" value="{{post.post_url}}" class="form-control" id="edit-post-content"></textarea>
+      <textarea name="post-url" type="text" class="form-control" id="edit-post-content"></textarea>
     </div>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
@@ -24,6 +25,7 @@
   </form>
 </article>
 
+{{!-- Container for adding comments ot a page --}}
 <form class="comment-form">
   <div class="form-group">
     <label for="add-a-comment">Add Comment:</label>
@@ -37,6 +39,7 @@
 
 {{> comments post.comments}}
 
+{{!-- Load scripts that edit a post, delete a post, and create a comment on a post --}}
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>
 <script src="/javascript/comment.js"></script>
