@@ -147,8 +147,7 @@ router.put('/:id', withAuth, (req, res) => {
   Post.update(
     // Updated post title
     {
-      title: req.body.title,
-      post_url: req.body.post_url
+      title: req.body.title
     },
 
     // Find data with the provided ID
