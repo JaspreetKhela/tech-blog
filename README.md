@@ -26,7 +26,6 @@ Please visit the deployment link above.
 
 **Screenshots**:
 ![Screen Shot 2021-09-14 at 12 44 25 AM (2)](https://user-images.githubusercontent.com/80941606/133198178-9cc3dccf-a479-4688-aea7-e1f12a9de3a5.png)
-![Screen Shot 2021-09-14 at 12 44 31 AM (2)](https://user-images.githubusercontent.com/80941606/133198187-07167713-2d85-4a4f-9937-2802a7bf9560.png)
 ![Screen Shot 2021-09-14 at 12 49 28 AM (2)](https://user-images.githubusercontent.com/80941606/133198192-241d49cc-c6a8-428d-b2be-86d8cc219e13.png)
 ![Screen Shot 2021-09-14 at 12 50 11 AM (2)](https://user-images.githubusercontent.com/80941606/133198199-b0770d08-fb5e-45bf-ac76-f70a38608cee.png)
 ![Screen Shot 2021-09-14 at 12 52 00 AM (2)](https://user-images.githubusercontent.com/80941606/133198208-55772c8d-db32-4d15-9a79-ad60968f16f6.png)
