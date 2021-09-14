@@ -19,7 +19,7 @@
 * [License](#license)
 
 ### Installation
-Please visit the deployment link above.
+Please visit the deployment link above. This application uses the bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, handlebars, jest, mysql2, and sequelize npm packages.
 
 ### Usage
 Please visit the deployment link above.
